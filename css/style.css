@@ -388,6 +388,23 @@ input:focus {
    color: var(--text-color);
 }
 
+.discounts__image {
+   position: relative;
+}
+
+.discounts__image::before {
+   content: "40% off";
+   position: absolute;
+   width: 115px;
+   top: 40px;
+   left: 55px;
+   font-size: 52px;
+   line-height: 78px;
+   text-align: center;
+
+   color: #FFFFFF;
+}
+
 .partners {
    display: flex;
    align-items: center;
