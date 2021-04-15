@@ -479,3 +479,9 @@ input:focus {
    display: block;
    margin-bottom: 35px;
 }
+
+.information, 
+.product,
+.contact {
+   margin-right: 15px;
+}
